@@ -8,20 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		0C0502A322B4764600144263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0502A222B4764600144263 /* AppDelegate.swift */; };
-		0C0502A522B4764600144263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0502A422B4764600144263 /* ViewController.swift */; };
 		0C0502A822B4764600144263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0502A622B4764600144263 /* Main.storyboard */; };
 		0C0502AA22B4764700144263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0502A922B4764700144263 /* Assets.xcassets */; };
 		0C0502AD22B4764700144263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0502AB22B4764700144263 /* LaunchScreen.storyboard */; };
+		0C0502B722B4937700144263 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0502B622B4937700144263 /* TitleViewController.swift */; };
+		0C0502B922B4939700144263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0502B822B4939700144263 /* GameViewController.swift */; };
+		0C44F76922B84F6B002C135A /* ExpressionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C44F76822B84F6B002C135A /* ExpressionModel.swift */; };
+		0C44F77722B88362002C135A /* MathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C44F77222B87FC6002C135A /* MathParser.framework */; };
+		640273D222BDE0DC001F0AB4 /* ProblemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640273D122BDE0DC001F0AB4 /* ProblemModel.swift */; };
+		64DA616F22D3E90100CED00B /* ProblemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA616E22D3E90100CED00B /* ProblemTableViewController.swift */; };
+		64DA617122D3E91500CED00B /* ProblemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA617022D3E91500CED00B /* ProblemTableViewCell.swift */; };
+		64E6A31222C70DA00071E886 /* RulesManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6A31122C70DA00071E886 /* RulesManagerModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C44F77122B87FC6002C135A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C44F76B22B87FC5002C135A /* DDMathParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 559B3EF91B74063600000108;
+			remoteInfo = MathParser;
+		};
+		0C44F77322B87FC6002C135A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C44F76B22B87FC5002C135A /* DDMathParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 559B3F021B74063600000108;
+			remoteInfo = MathParserTests;
+		};
+		0C44F77522B87FC6002C135A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C44F76B22B87FC5002C135A /* DDMathParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55113C041FC35AC7001E508D;
+			remoteInfo = Demo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C05029F22B4764600144263 /* nyp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nyp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0502A222B4764600144263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C0502A422B4764600144263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C0502A722B4764600144263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C0502A922B4764700144263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0502AC22B4764700144263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0502AE22B4764700144263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0502B622B4937700144263 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		0C0502B822B4939700144263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0C44F76822B84F6B002C135A /* ExpressionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionModel.swift; sourceTree = "<group>"; };
+		0C44F76B22B87FC5002C135A /* DDMathParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DDMathParser.xcodeproj; path = "../DDMathParser-master/DDMathParser.xcodeproj"; sourceTree = "<group>"; };
+		640273D122BDE0DC001F0AB4 /* ProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemModel.swift; sourceTree = "<group>"; };
+		64DA616E22D3E90100CED00B /* ProblemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemTableViewController.swift; sourceTree = "<group>"; };
+		64DA617022D3E91500CED00B /* ProblemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemTableViewCell.swift; sourceTree = "<group>"; };
+		64E6A31122C70DA00071E886 /* RulesManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesManagerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C44F77722B88362002C135A /* MathParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +79,7 @@
 			children = (
 				0C0502A122B4764600144263 /* nyp */,
 				0C0502A022B4764600144263 /* Products */,
+				0C44F76A22B87FC5002C135A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +95,37 @@
 			isa = PBXGroup;
 			children = (
 				0C0502A222B4764600144263 /* AppDelegate.swift */,
-				0C0502A422B4764600144263 /* ViewController.swift */,
 				0C0502A622B4764600144263 /* Main.storyboard */,
+				0C44F76822B84F6B002C135A /* ExpressionModel.swift */,
+				640273D122BDE0DC001F0AB4 /* ProblemModel.swift */,
+				64E6A31122C70DA00071E886 /* RulesManagerModel.swift */,
+				0C0502B822B4939700144263 /* GameViewController.swift */,
+				64DA616E22D3E90100CED00B /* ProblemTableViewController.swift */,
+				64DA617022D3E91500CED00B /* ProblemTableViewCell.swift */,
+				0C0502B622B4937700144263 /* TitleViewController.swift */,
 				0C0502A922B4764700144263 /* Assets.xcassets */,
 				0C0502AB22B4764700144263 /* LaunchScreen.storyboard */,
 				0C0502AE22B4764700144263 /* Info.plist */,
 			);
 			path = nyp;
+			sourceTree = "<group>";
+		};
+		0C44F76A22B87FC5002C135A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C44F76B22B87FC5002C135A /* DDMathParser.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C44F76C22B87FC5002C135A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C44F77222B87FC6002C135A /* MathParser.framework */,
+				0C44F77422B87FC6002C135A /* MathParserTests.xctest */,
+				0C44F77622B87FC6002C135A /* Demo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +174,42 @@
 			mainGroup = 0C05029622B4764600144263;
 			productRefGroup = 0C0502A022B4764600144263 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0C44F76C22B87FC5002C135A /* Products */;
+					ProjectRef = 0C44F76B22B87FC5002C135A /* DDMathParser.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0C05029E22B4764600144263 /* nyp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0C44F77222B87FC6002C135A /* MathParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MathParser.framework;
+			remoteRef = 0C44F77122B87FC6002C135A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C44F77422B87FC6002C135A /* MathParserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MathParserTests.xctest;
+			remoteRef = 0C44F77322B87FC6002C135A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C44F77622B87FC6002C135A /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = 0C44F77522B87FC6002C135A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0C05029D22B4764600144263 /* Resources */ = {
@@ -135,8 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0502A522B4764600144263 /* ViewController.swift in Sources */,
+				0C44F76922B84F6B002C135A /* ExpressionModel.swift in Sources */,
+				64DA617122D3E91500CED00B /* ProblemTableViewCell.swift in Sources */,
+				64E6A31222C70DA00071E886 /* RulesManagerModel.swift in Sources */,
 				0C0502A322B4764600144263 /* AppDelegate.swift in Sources */,
+				0C0502B922B4939700144263 /* GameViewController.swift in Sources */,
+				640273D222BDE0DC001F0AB4 /* ProblemModel.swift in Sources */,
+				64DA616F22D3E90100CED00B /* ProblemTableViewController.swift in Sources */,
+				0C0502B722B4937700144263 /* TitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMCYY4QDH6;
 				INFOPLIST_FILE = nyp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMCYY4QDH6;
 				INFOPLIST_FILE = nyp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
